@@ -1,6 +1,6 @@
 <?php
 
-namespace humhub\humhub\modules\template;
+namespace humhub\humhub\modules\ripfelli;
 
 use Yii;
 use yii\helpers\Url;
@@ -26,7 +26,7 @@ class Module extends \humhub\modules\content\components\ContentContainerModule
     */
     public function getConfigUrl()
     {
-        return Url::to(['/template/admin']);
+        return Url::to(['/ripfelli/admin']);
     }
 
     /**
@@ -44,7 +44,7 @@ class Module extends \humhub\modules\content\components\ContentContainerModule
     public function disableContentContainer(ContentContainerActiveRecord $container)
     {
         // Clean up space related data, don't remove the parent::disable()!!!
-        parent::disable();
+        parent::disableContentContainer($container);
     }
 
     /**
@@ -52,7 +52,7 @@ class Module extends \humhub\modules\content\components\ContentContainerModule
     */
     public function getContentContainerName(ContentContainerActiveRecord $container)
     {
-        return Yii::t('TemplateModule.base', 'Template');
+        return Yii::t('RipfelliModule.base', 'RIP Felli');
     }
 
     /**
@@ -60,6 +60,6 @@ class Module extends \humhub\modules\content\components\ContentContainerModule
     */
     public function getContentContainerDescription(ContentContainerActiveRecord $container)
     {
-        return Yii::t('TemplateModule.base', 'This is just a template module.');
+        return Yii::t('RipfelliModule.base', 'This is a module to show respect to Green Meteor creator Felli.');
     }
 }
