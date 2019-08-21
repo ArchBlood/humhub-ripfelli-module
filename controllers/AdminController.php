@@ -1,6 +1,6 @@
 <?php
 
-namespace humhub\humhub\modules\template\controllers;
+namespace humhub\humhub\modules\ripfelli\controllers;
 
 use humhub\modules\admin\components\Controller;
 
