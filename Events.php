@@ -32,7 +32,7 @@ class Events
     {
         $event->sender->addItem([
             'label' => 'RIP Felli',
-            'url' => Url::to(['/template/admin']),
+            'url' => Url::to(['/ripfelli/admin']),
             'group' => 'manage',
             'icon' => '<i class="fas fa-cross"></i>',
             'isActive' => (Yii::$app->controller->module && Yii::$app->controller->module->id == 'ripfelli' && Yii::$app->controller->id == 'admin'),
