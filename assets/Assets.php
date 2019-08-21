@@ -1,6 +1,6 @@
 <?php
 
-namespace  humhub\humhub\modules\template\assets;
+namespace  humhub\humhub\modules\ripfelli\assets;
 
 use yii\web\AssetBundle;
 
@@ -12,7 +12,7 @@ class Assets extends AssetBundle
     /**
      * @var string defines the path of your module assets
      */
-    public $sourcePath = '@template/resources';
+    public $sourcePath = '@ripfelli/resources';
 
     /**
      * @var array defines where the js files are included into the page, note your custom js files should be included after the core files (which are included in head)
@@ -27,7 +27,7 @@ class Assets extends AssetBundle
     ];
 
     public $js = [
-        'js/humhub.template.js'
+        'js/humhub.ripfelli.js'
     ];
 
 }
