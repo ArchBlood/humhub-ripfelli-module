@@ -1,9 +1,9 @@
 <div class="container-fluid">
     <div class="panel panel-default">
-        <div class="panel-heading"><strong>Template</strong> <?= Yii::t('TemplateModule.base', 'configuration') ?></div>
+        <div class="panel-heading"><strong>RIP Felli</strong> <?= Yii::t('RipfelliModule.base', 'configuration') ?></div>
 
         <div class="panel-body">
-            <p><?= Yii::t('TemplateModule.base', 'Welcome to the admin only area.') ?></p>
+            <p><?= Yii::t('RipfelliModule.base', 'We of Green Meteor thank you for installing this module to show your respect to our fallen friend Felli.') ?></p>
         </div>
     </div>
 </div>
