@@ -1,13 +1,13 @@
 <?php
 
-use humhub\humhub\modules\template\Events;
+use humhub\humhub\modules\ripfelli\Events;
 use humhub\modules\admin\widgets\AdminMenu;
 use humhub\widgets\TopMenu;
 
 return [
-	'id' => 'template',
-	'class' => 'humhub\humhub\modules\template\Module',
-	'namespace' => 'humhub\humhub\modules\template',
+	'id' => 'ripfelli',
+	'class' => 'humhub\humhub\modules\ripfelli\Module',
+	'namespace' => 'humhub\humhub\modules\ripfelli',
 	'events' => [
 		[
 			'class' => TopMenu::class,
