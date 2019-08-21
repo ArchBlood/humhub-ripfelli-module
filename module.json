@@ -1,7 +1,7 @@
 {
-    "id": "template",
-    "name": "Template",
-    "description": "This is a template module and does nothing at all but adds a few extra pages.",
+    "id": "ripfelli",
+    "name": "RIP Felli",
+    "description": "This is a module to show respect to Green Meteor creator Felli.",
     "keywords": [
     ],
     "version": "1.0.0",
