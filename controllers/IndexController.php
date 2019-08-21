@@ -1,13 +1,13 @@
 <?php
 
-namespace humhub\humhub\modules\template\controllers;
+namespace humhub\humhub\modules\ripfelli\controllers;
 
 use humhub\components\Controller;
 
 class IndexController extends Controller
 {
 
-    public $subLayout = "@template/views/layouts/default";
+    public $subLayout = "@ripfelli/views/layouts/default";
 
     /**
      * Renders the index view for the module
