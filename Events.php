@@ -1,6 +1,6 @@
 <?php
 
-namespace  humhub\humhub\modules\template;
+namespace  humhub\humhub\modules\ripfelli;
 
 use Yii;
 use yii\helpers\Url;
@@ -15,11 +15,11 @@ class Events
     public static function onTopMenuInit($event)
     {
         $event->sender->addItem([
-            'label' => 'Template',
-            'icon' => '<i class="fa fa-exclamation-triangle"></i>',
-            'url' => Url::to(['/template/index']),
+            'label' => 'RIP Felli',
+            'icon' => '<i class="fas fa-cross"></i>',
+            'url' => Url::to(['/ripfelli/index']),
             'sortOrder' => 99999,
-            'isActive' => (Yii::$app->controller->module && Yii::$app->controller->module->id == 'template' && Yii::$app->controller->id == 'index'),
+            'isActive' => (Yii::$app->controller->module && Yii::$app->controller->module->id == 'ripfelli' && Yii::$app->controller->id == 'index'),
         ]);
     }
 
@@ -31,11 +31,11 @@ class Events
     public static function onAdminMenuInit($event)
     {
         $event->sender->addItem([
-            'label' => 'Template',
+            'label' => 'RIP Felli',
             'url' => Url::to(['/template/admin']),
             'group' => 'manage',
-            'icon' => '<i class="fa fa-exclamation-triangle"></i>',
-            'isActive' => (Yii::$app->controller->module && Yii::$app->controller->module->id == 'template' && Yii::$app->controller->id == 'admin'),
+            'icon' => '<i class="fas fa-cross"></i>',
+            'isActive' => (Yii::$app->controller->module && Yii::$app->controller->module->id == 'ripfelli' && Yii::$app->controller->id == 'admin'),
             'sortOrder' => 99999,
         ]);
     }
