@@ -1,0 +1,2 @@
+# HumHub Template Module
+WIP
