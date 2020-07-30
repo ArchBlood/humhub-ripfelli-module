@@ -22,4 +22,4 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: heinrichreimer/github-changelog-generator-action@v2.1.1
       with:
-        key: token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GITHUB_TOKEN }}
